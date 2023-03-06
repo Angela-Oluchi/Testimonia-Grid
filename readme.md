@@ -23,4 +23,4 @@ This challenge was completed by Gabriel Ufot and Angela Oluchi.
 - Website- [Angela Oluchi](https://github.com/Angela-Oluchi)
 - website- [Gabriel Ufot](https://github.com/gabanie2020)
 - Twitter- [Angela Ria](https://twitter.com/AngelaRialuchi)
-- Twitter- [Gabriel Ufot](https://twitter.com/gabrielufot)
+- Twitter- [Gabriel Ufot](https://twitter.com/gabanie2000)
