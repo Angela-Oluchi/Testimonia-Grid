@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 8rem;
+    margin: 1rem;
+    line-height: 1.1rem;
+    background-color:aliceblue;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+    grid-template-rows: 40vh 40vh;
+    grid-template-areas: 
+    "d d d d d g g g k k k"
+    "j j j p p p p p k k k";
+    gap: 1rem;
+    font-size: 13px;
+    color: hsl(0, 0%, 81%);
+}
+
+
+ .daniel {
+    background-color:hsl(263, 55%, 52%) ;
+    color: hsl(0, 0%, 100%);
+    grid-area: d;
+    padding: 30px;
+    border-radius: 9px;
+    background-image: url(./img/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: top right 50px;
+} 
+
+.gonathan {
+    background-color:hsl(217, 19%, 35%) ;
+    color: hsl(0, 0%, 100%);
+    grid-area: g;
+    padding: 30px;
+    border-radius: 9px;
+}
+
+.Patrick {
+    background-color: hsl(219, 29%, 14%);
+    color: hsl(0, 0%, 100%);
+    grid-area: p;
+    padding: 30px;
+    border-radius: 9px;
+}
+
+.jeanette {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(217, 19%, 35%);
+    grid-area: j;
+    padding: 30px;
+    border-radius: 9px;
+}
+
+.kira {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(217, 19%, 35%); 
+    grid-area: k;
+    padding: 30px;
+    border-radius: 9px;
+    max-width: 80%;
+}
+
+.info {
+    display: flex;
+    font-size: 10px;
+    padding-bottom: 0.5rem;
+}
+
+.info img{
+    border-radius: 4rem;
+    width: 40px;
+}
+
+.name {
+    padding-left: 1rem;
+}
+
+.name h3 {
+    color:hsl(0, 0%, 70%)
+}
+
+.normal p {
+    color:hsl(0, 0%, 70%)
+}
+
+.veri {
+    color: hsl(0, 0%, 50%);
+}
+
+.normal {
+    padding-top: 15px;
+    font-size: 11px;
+}
+
+.dan {
+    padding-bottom: 2rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    body {
+        padding:0 4rem 0 4rem;
+        margin:5rem;
+    }
+}
